@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: airflow-example
+  description: "evisos"
+  tags:
+    - python
+    - airflow
+    - etl
+    - data
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ONS-Innovation/airflow-example
+spec:
+  type: airflow-module
+  lifecycle: experimental
+  owner: "user:default/sebtheo"
+  system: "system:default/survey-data-processing-publication-rap"
